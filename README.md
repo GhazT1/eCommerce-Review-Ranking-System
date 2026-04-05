@@ -42,7 +42,7 @@ Implementing this engine yields four primary commercial benefits:
 * **Resolution:** Engineered a **Noun-Density Metric ($R_n$)**. Using **Spacy's POS tagging**, I prioritized reviews that mentioned specific objects (features) like "camera" or "battery" over those filled purely with subjective adjectives.
 
 ### 3. Handling Real-World "Dirty" Data
-* **Challenge:** Reviews often contain keyboard-mash gibberish or multi-lingual profanity (English/Hindi).
+* **Challenge:** Reviews often contain keyboard-mash gibberish or multi-lingual profanity (English/non-English).
 * **Resolution:** Implemented a multi-stage `ReviewProcessor` class in `utils.py` that uses Markov-chain probability for gibberish detection and localized swear filters before the ML model is triggered.
 
 ---
