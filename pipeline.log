@@ -1,0 +1,31 @@
+2026-04-02 10:26:48,281 - feature_extractor - INFO - All dictionaries loaded successfully.
+2026-04-02 10:26:48,321 - feature_extractor - INFO - Gibberish model loaded successfully.
+2026-04-02 10:26:48,396 - ranker - INFO - Model loaded from C:\Users\fornt\Downloads\refactored_codebase\models\randomforest.joblib
+2026-04-02 10:26:48,396 - __main__ - INFO - Starting pipeline for file: C:\Users\fornt\Downloads\refactored_codebase\data\test.csv
+2026-04-02 10:26:48,396 - __main__ - INFO - Loaded 5 reviews.
+2026-04-02 10:26:49,661 - __main__ - INFO - Filtering stats: {'language': 0, 'gibberish': 0, 'profanity': 0, 'brand': 0}
+2026-04-02 10:26:49,661 - __main__ - INFO - Preprocessing complete. 5 reviews remaining.
+2026-04-02 10:26:49,795 - __main__ - INFO - Feature engineering complete.
+2026-04-02 10:26:49,795 - ranker - INFO - Ranking 3 reviews for product: WidgetA
+2026-04-02 10:26:49,795 - ranker - INFO - Ranking 2 reviews for product: GadgetB
+2026-04-02 10:26:49,795 - __main__ - INFO - Ranking complete.
+2026-04-02 10:26:49,810 - __main__ - INFO - Results saved to C:\Users\fornt\Downloads\refactored_codebase\data\test_ranked_output.csv
+2026-04-02 10:26:49,810 - __main__ - INFO - Pipeline finished successfully in 1.41 seconds.
+2026-04-05 14:46:39,947 - feature_extractor - INFO - All dictionaries loaded successfully.
+2026-04-05 14:46:39,947 - feature_extractor - INFO - Gibberish model loaded successfully.
+2026-04-05 14:46:40,523 - ranker - ERROR - Error loading model: node array from the pickle has an incompatible dtype:
+- expected: {'names': ['left_child', 'right_child', 'feature', 'threshold', 'impurity', 'n_node_samples', 'weighted_n_node_samples', 'missing_go_to_left'], 'formats': ['<i8', '<i8', '<i8', '<f8', '<f8', '<i8', '<f8', 'u1'], 'offsets': [0, 8, 16, 24, 32, 40, 48, 56], 'itemsize': 64}
+- got     : [('left_child', '<i8'), ('right_child', '<i8'), ('feature', '<i8'), ('threshold', '<f8'), ('impurity', '<f8'), ('n_node_samples', '<i8'), ('weighted_n_node_samples', '<f8')]
+2026-04-05 14:46:52,039 - feature_extractor - INFO - All dictionaries loaded successfully.
+2026-04-05 14:46:52,039 - feature_extractor - INFO - Gibberish model loaded successfully.
+2026-04-05 14:46:52,106 - ranker - INFO - Model loaded from C:\Users\fornt\Downloads\refactored_codebase\models\randomforest.joblib
+2026-04-05 14:46:52,106 - __main__ - INFO - Starting pipeline for file: C:\Users\fornt\Downloads\refactored_codebase\data\test.csv
+2026-04-05 14:46:52,112 - __main__ - INFO - Loaded 5 reviews.
+2026-04-05 14:46:53,489 - __main__ - INFO - Filtering stats: {'language': 0, 'gibberish': 0, 'profanity': 0, 'brand': 0}
+2026-04-05 14:46:53,489 - __main__ - INFO - Preprocessing complete. 5 reviews remaining.
+2026-04-05 14:46:53,628 - __main__ - INFO - Feature engineering complete.
+2026-04-05 14:46:53,628 - ranker - INFO - Ranking 3 reviews for product: WidgetA
+2026-04-05 14:46:53,639 - ranker - INFO - Ranking 2 reviews for product: GadgetB
+2026-04-05 14:46:53,648 - __main__ - INFO - Ranking complete.
+2026-04-05 14:46:53,650 - __main__ - INFO - Results saved to C:\Users\fornt\Downloads\refactored_codebase\data\test_ranked_output.csv
+2026-04-05 14:46:53,650 - __main__ - INFO - Pipeline finished successfully in 1.54 seconds.
